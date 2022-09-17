@@ -5,7 +5,7 @@ if (svgContainer1){
     animType: 'svg',
     loop: true,
     autoplay: false,
-    path: '/json/key_visual.json',
+    path: '/key_visual.json',
   });
   anlottie1.play();
 }
@@ -17,7 +17,7 @@ if (svgContainer2){
     animType: 'svg',
     loop: true,
     autoplay: false,
-    path: '/json/feature1.json',
+    path: '/feature1.json',
   });
   anlottie2.play();
 }
