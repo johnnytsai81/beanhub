@@ -1,7 +1,7 @@
 const svgContainer1 = document.querySelector('#svgContainer1')
 if (svgContainer1){
   const anlottie1 = lottie.loadAnimation({
-    container: svgContainer,
+    container: svgContainer1,
     animType: 'svg',
     loop: true,
     autoplay: false,
@@ -13,7 +13,7 @@ if (svgContainer1){
 const svgContainer2 = document.querySelector('#svgContainer1')
 if (svgContainer2){
   const anlottie2 = lottie.loadAnimation({
-    container: svgContainer,
+    container: svgContainer2,
     animType: 'svg',
     loop: true,
     autoplay: false,
