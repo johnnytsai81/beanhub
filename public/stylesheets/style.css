@@ -4,6 +4,13 @@
 }
 
 #svgContainer2 {
+  position: absolute;
+  width: 1000px;
+  height: 500px;
+}
+
+#svgContainer3 {
+  position: absolute;
   width: 1000px;
   height: 500px;
 }
