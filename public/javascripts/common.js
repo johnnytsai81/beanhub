@@ -36,6 +36,17 @@ function svgInview() {
   });
 }
 
+if (svgContainer4){
+  const anlottie4 = lottie.loadAnimation({
+    container: svgContainer4,
+    animType: 'svg',
+    loop: true,
+    autoplay: false,
+    path: './feature2.json',
+  });
+  anlottie4.play();
+}
+
 // ScrollLottie({
 //   target: '#svgContainer2',
 //   path: './feature1.json', 
