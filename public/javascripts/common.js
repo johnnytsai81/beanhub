@@ -36,6 +36,7 @@ function svgInview() {
   });
 }
 
+const svgContainer4 = document.querySelector('#svgContainer4')
 if (svgContainer4){
   const anlottie4 = lottie.loadAnimation({
     container: svgContainer4,
