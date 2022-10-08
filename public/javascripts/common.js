@@ -10,7 +10,6 @@ if (svgContainer1){
   anlottie1.play();
 }
 
-//圖往右滑的效果
 function svgInview() {
   $('#svgContainer2').each(function () {
       $(this).on('inview', function (event, isInView) {
@@ -60,6 +59,23 @@ if (svgContainer5){
   anlottie5.play();
 }
 
+function svgInview2() {
+  $('#svgContainer6').each(function () {
+      $(this).on('inview', function (event, isInView) {
+          if (isInView) {
+            const anlottie6 = lottie.loadAnimation({
+              container: svgContainer6,
+              animType: 'svg',
+              loop: false,
+              autoplay: false,
+              path: './successful.json',
+            });
+            anlottie6.play();
+          }
+      });
+  });
+}
+
 // ScrollLottie({
 //   target: '#svgContainer2',
 //   path: './feature1.json', 
@@ -69,4 +85,5 @@ if (svgContainer5){
 
 $(document).ready(function () {
   svgInview();
+  svgInview2();
 });
