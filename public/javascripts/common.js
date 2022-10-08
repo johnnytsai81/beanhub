@@ -48,6 +48,18 @@ if (svgContainer4){
   anlottie4.play();
 }
 
+const svgContainer5 = document.querySelector('#svgContainer5')
+if (svgContainer5){
+  const anlottie5 = lottie.loadAnimation({
+    container: svgContainer5,
+    animType: 'svg',
+    loop: true,
+    autoplay: false,
+    path: './create-bean.json',
+  });
+  anlottie5.play();
+}
+
 // ScrollLottie({
 //   target: '#svgContainer2',
 //   path: './feature1.json', 
